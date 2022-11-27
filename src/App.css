@@ -1,0 +1,85 @@
+:root {
+  --small-news-img-width: 120px;
+}
+
+@font-face {
+  font-family: "BwGradual-Bold";
+  src: url("./fonts/subset-BwGradual-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BwNistaInt-Bd";
+  src: url("./fonts/subset-BwNistaInt-Bd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BwNistaInt-Rg";
+  src: url("./fonts/subset-BwNistaInt-Rg.woff2") format("woff2");
+}
+
+* {
+  font-family: "BwNistaInt-Rg", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+    list-style: none;
+
+}
+
+a {
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.link-button {
+  text-align: center;
+  display: inline-block;
+  padding: 13px 30px 11px;
+  background-color: blue;
+  border-radius: 50px;
+  color: white;
+}
+
+
+/* ----------------------------------------- */
+.events-card {
+  margin-bottom: 50px;
+}
+
+.testcon img {
+  height: 100%;
+}
+
+/* ----------------------------------------- */
+main a.aplikuok {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 110px;
+  height: 110px;
+}
+
+main a.aplikuok img {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: rotation 15s linear infinite;
+  animation: rotation 15s linear infinite;
+  will-change: transform;
+}
